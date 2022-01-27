@@ -6,8 +6,8 @@ https://levelup.gitconnected.com/how-to-use-typescript-for-aws-lambda-in-3-steps
 ```
 $ cd hello-world
 $ npm run compile
-$ cd ..
-$ sam deploy
+$ npx ts-node src-ts/app.ts
+This shouldn't generate a compile error
 ```
 
 ## Test 
